@@ -1,0 +1,186 @@
+:root{
+    --black:#141616;
+    --blue:#2435d1;
+    --brown:#c24c5f;
+    --lightr:#cc82db;
+}
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.land{
+    background-image: url('55554.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    font-size: 1em;
+    font-weight:bold;
+}
+header a{
+    text-decoration: none;
+}
+header{
+     display: flex; 
+    padding-top: 30px;
+    background-color:rgba(48, 45, 197, 0.4);
+}
+#logo {
+    flex: 1;
+    font-size: 2em;
+    color: white;
+    /* background-color: rgb(34, 34, 194,0.4); */
+}
+nav{
+    flex: 1;
+    display: flex;
+}
+nav a{
+    flex: 1;
+    color: plum;
+}
+nav a:hover{
+    color:whitesmoke;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    padding: 3em;
+    justify-content: center;
+}
+.tag1{
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.719);
+    width: max-content;
+}
+.tag2{
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: rgb(78, 115, 184);
+        width: fit-content;
+}
+.call{
+    color: blanchedalmond;
+}
+.main div{
+    margin-top: 1em;
+}
+.main button{
+    width: 15vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    background-color: var(--blue);
+    color: blanchedalmond;
+    font-weight: bold;
+}
+#btn:hover{
+        background-color: green;
+        padding: 10px;
+}
+marquee{
+    color: powderblue;
+    margin-top: 8px;
+ font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+}
+.container{
+    width: 100%;
+    height: auto;
+
+}
+.banner{
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+}
+.cards{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.H4{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #ffffff;
+    background-color: rgb(34, 34, 126,0.9);
+}
+.card{
+    background-image: url("pics/chest.jpg");
+    background-position: center;
+    margin :1rem 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 200px;
+    height: auto;
+}
+button{
+    padding: .5rem 2rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background:#000 ;
+    color: blanchedalmond;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+.card button:hover{
+background-color: #2435d1;
+}
+
+.card1{
+    background-color: #5d57b1;
+    margin :1rem 2rem;
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    display: flex;
+}
+.card1 p{
+ font-size: 27px;
+ font-weight: bold;
+ color: rgb(247, 247, 246);
+ align-self:flex-end;
+ margin-left: 20px;
+}
+.card p{
+ font-size: 27px;
+ font-weight: bold;
+ color: rgb(247, 247, 246);
+ align-self:flex-end;
+}
+#c1{
+    background-image: url("pics/chest.jpg");
+    background-size: cover;
+}
+#c2{
+    background-image: url("pics/back.jpg");
+    background-size: cover;
+}
+#c3{
+    background-image: url("pics/leg.jpg");
+    background-position: right;
+    background-size: cover;
+}
+.c-card{
+    display: flex;
+}
+@media only screen and ( max-width: 1000px){
+    .container{
+        width: 100%;
+    }
+    .banner{
+        width: 90%;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        margin: 20px 20px;
+    }
+}
